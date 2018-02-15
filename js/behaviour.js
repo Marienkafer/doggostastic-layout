@@ -10,3 +10,7 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+var x = $(".doggo-item:visible").length;
+$("#count").append(x);
+});
