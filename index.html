@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html  lang=en>
+	<head>
+		<meta charset="utf-8"/>
+		<title> Doggotastic! </title>
+		<link rel="icon" href="img/icons/dogico.png"/>
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/behaviour.js"></script>
+	</head>
+	
+	<body>
+		<div class="header" id="header">
+			<img class="doggologo" src="img/icons/dog.svg"/>
+			<h1> DOGGOTASTIC!</h1>
+			<h2> Welcome to your favorite doggo showcase</h2>
+		</div>
+		<div class="main-block" id="main-block">
+			<h3> Here's your list of doggos </h3>
+			<p> you have:  #quantity doggos</p>
+			
+			<button class="bttn" id="add-bttn"> ADD DOGGO </button>
+			
+			<form class="form" id="add-form"> 
+				Doggo name: <input type="text" name="doggoName"><br>
+				Doggo description: <textarea name="doggoDescription" placeholder="Describe your doggo here..." rows="3" cols="21"></textarea> 		
+  				<button class="bttn">Upload a file</button> <input id="inputfile" type="file" multiple="multiple" name="file" accept="image/"/> <br>
+				<button class="bttn" id="submit-bttn"> WOOF! </button>
+			</form>
+			<div class="list-block">
+				<div class="doggo-item"> 
+					<div class="doggo-name"> Doggo 1 </div>
+					 <img class="doggo-img" src="img/database/doggo1.png">
+					<div class= "doggo-description"> Brown colored doggo, smart and gentle </div>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+	
